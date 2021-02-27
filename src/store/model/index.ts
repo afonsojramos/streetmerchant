@@ -141,9 +141,11 @@ import {WellsTechnology} from './wellstechnology';
 import {Wipoid} from './wipoid';
 import {Xbox} from './xbox';
 import {Zotac} from './zotac';
+import {Ikea} from './ikea';
 import {logger} from '../../logger';
 
 export const storeList = new Map([
+  [Ikea.name, Ikea],
   [AComPC.name, AComPC],
   [Adorama.name, Adorama],
   [Allneeds.name, Allneeds],
